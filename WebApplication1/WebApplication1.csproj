@@ -178,9 +178,11 @@
     <Content Include="Views\Home\Index.cshtml" />
     <Content Include="Views\Home\partialviewhomedemo.cshtml" />
     <Content Include="Views\Product\Index.cshtml" />
+    <Content Include="Views\Product\partialview.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="Models\image\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff2" />

@@ -21,7 +21,11 @@ namespace WebApplication1.Controllers
         {
             return View();
         }
-
+        public ActionResult partialview ()
+        {
+            var listimage = db.Products;
+            return PartialView(listimage);
+        }
         // GET: Product/Create
         public ActionResult Create()
         {
